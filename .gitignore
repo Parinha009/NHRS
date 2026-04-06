@@ -12,6 +12,12 @@ __pycache__/
 
 # Artifacts (keep only version folders if needed)
 ml/artifacts/**
+!ml/artifacts/
+!ml/artifacts/heart/
+!ml/artifacts/heart/v1/
+!ml/artifacts/heart/v1/model.joblib
+!ml/artifacts/heart/v1/preprocessor.joblib
+!ml/artifacts/heart/v1/metadata.json
 !ml/artifacts/.gitkeep
 
 # OS

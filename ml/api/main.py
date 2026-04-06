@@ -1,5 +1,6 @@
 ﻿from fastapi import FastAPI
 
+from ml.api.heart_routes import router as heart_router
 from ml.api.schemas import PredictRequest, PredictResponse
 
 MODEL_VERSION = "v0"
@@ -47,3 +48,6 @@ def predict(payload: PredictRequest) -> PredictResponse:
         rationale="No emergency keywords detected by the stub triage model.",
         errors=[],
     )
+
+
+app.include_router(heart_router)

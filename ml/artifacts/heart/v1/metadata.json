@@ -1,0 +1,51 @@
+{
+  "model_version": "heart-v1",
+  "target_column": "target",
+  "feature_order": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "numeric_features": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak"
+  ],
+  "categorical_features": [
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "class_labels": [
+    0,
+    1
+  ],
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "training_backend": "numpy_fallback",
+  "training_rows": 18,
+  "test_rows": 4,
+  "trained_at_utc": "2026-04-06T03:34:22.866802+00:00",
+  "disclaimer": "Educational support only. This model is not a medical diagnosis tool and must not replace licensed clinical judgment or emergency care."
+}
