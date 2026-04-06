@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+
+# VS Code
+.vscode/
+
+# Artifacts (keep only version folders if needed)
+ml/artifacts/**
+!ml/artifacts/
+!ml/artifacts/heart/
+!ml/artifacts/heart/v1/
+!ml/artifacts/heart/v1/model.joblib
+!ml/artifacts/heart/v1/preprocessor.joblib
+!ml/artifacts/heart/v1/metadata.json
+!ml/artifacts/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
